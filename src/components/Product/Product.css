@@ -1,0 +1,30 @@
+.product{
+    display: flex;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.product img{
+    padding-right: 10px;
+}
+.product .product-title{
+    font-weight: 400;
+    color: blue;
+    text-align: left;
+}
+.product small{
+    display:block;
+    margin-bottom: 20px;
+}
+.product .btn{
+    background-color: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    width: 200px;
+    height: 26px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    border-radius: 3px;
+    vertical-align: middle;
+}

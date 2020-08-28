@@ -1,16 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header';
+import Shop from './components/Shop/Shop';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hello React! I will capture you as soon as possible</h1>
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+    <div>
+      <Header></Header>
+      <Shop></Shop>
     </div>
   );
+
 }
 
 export default App;

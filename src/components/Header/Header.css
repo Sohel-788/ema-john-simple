@@ -8,8 +8,9 @@
 .header nav{
     line-height: 40px;
     background:black;
-    display: flex;
+    display: block;
     padding-left: 50px;
+    text-align: center;
 }
 .header nav a{
     color: white;

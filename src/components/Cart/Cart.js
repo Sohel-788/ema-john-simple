@@ -17,7 +17,7 @@ const Cart = (props) => {
         shipping = 0;
     } else if (total > 30) {
         shipping = 5
-    } else if (total > 0) {
+    } else if (total >20) {
         shipping = 10
     }
     // Tax and vat
